@@ -1,0 +1,65 @@
+nav {
+    font-size: 50px;
+    word-spacing: 10px;
+    text-align: center;
+    background-color: black;
+}
+
+body {
+    background-color: darkblue;
+}
+
+p {
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* a links */
+a:hover {
+    color: red;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+/* about me image */
+.me img {
+    width: 40%;
+    height: 250px;
+}
+
+/* classmates images styling */
+img {
+    /* border-radius: 50%; */
+    width: 20%;
+    height: 250px;
+    padding: 10px;
+    margin-left: 5%;
+}
+
+
+/* grid use  */
+.me {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+/* footer grid display */
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-right: 10%;
+}
+
+/* footer image styling */
+.footer img {
+    width: 40%;
+    height: 250px;
+}
+
